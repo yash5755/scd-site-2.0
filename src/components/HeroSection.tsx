@@ -55,7 +55,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenRegister }) => {
   return (
     <section 
       id="top" 
-      className="relative flex min-h-[100svh] min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#23303E]"
+      className="relative flex min-h-[100svh] min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#008fa3]"
     >
       {/* Exact Fluid Organic Artwork from reference site */}
       <img
@@ -63,6 +63,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenRegister }) => {
         alt="AWS Community Day Mysuru 2026"
         className="pointer-events-none absolute inset-0 h-full w-full object-cover select-none z-0"
         loading="eager"
+        fetchPriority="high"
+        decoding="sync"
       />
       {/* Content Container positioned with mt-auto matching reference */}
       <div className="relative z-10 mt-auto flex w-full flex-col gap-8 px-5 pt-28 pb-8 sm:px-8 sm:pb-10 md:px-10 lg:gap-16 lg:p-20 lg:pt-32">

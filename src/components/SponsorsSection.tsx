@@ -70,7 +70,7 @@ export const SponsorsSection: React.FC = () => {
           name: 'AWS User Group Bengaluru',
           logo: '/awsugblr-logo.png',
           url: 'https://www.awsugblr.in/',
-          logoClassName: 'max-w-[90%] sm:max-w-[230px] max-h-16 sm:max-h-60',
+          logoClassName: 'max-w-[90%] sm:max-w-[320px] max-h-20 sm:max-h-60',
         },
         {
           name: 'AWS User Group Madurai',

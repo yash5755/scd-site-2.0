@@ -58,8 +58,8 @@ export const TicketsSection: React.FC = () => {
       subtitle: 'Early Bird, Be Quick!',
       price: '₹349',
       availability: 'Starts On: 22nd Oct 2026, 05:54 PM (GMT+05:30)',
-      buttonText: 'COMING SOON',
-      buttonStatus: 'coming-soon',
+      buttonText: 'GRAB YOUR TICKET',
+      buttonStatus: 'available',
       buttonId: KONFHUB_BUTTONS.REGULAR,
       features: [
         'Full access to the entire AWS Student Community Day Mysuru 2026 on 21st November 2026',

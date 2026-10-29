@@ -54,11 +54,11 @@ export const TicketsSection: React.FC = () => {
     {
       id: 'regular',
       title: 'Regular',
-      subtitle: 'Early Bird, Be Quick!',
+      subtitle: 'Last Chance, Be Quick!',
       price: '₹349',
       availability: 'Starts On: 22nd Oct 2026, 05:54 PM (GMT+05:30)',
-      buttonText: 'GRAB YOUR TICKET',
-      buttonStatus: 'available',
+      buttonText: 'SOLD OUT',
+      buttonStatus: 'sold-out',
       badge: 'Avail Off',
       buttonId: KONFHUB_BUTTONS.REGULAR,
       features: [
